@@ -9,7 +9,7 @@ function Products() {
       <div className="product-container">
         {data.map((product, index) => {
           return (
-            <ProductCard product={product} cart={false} index={index}/>
+            <ProductCard product={product} isCart={false} index={index}/>
           );
         })}
       </div>
